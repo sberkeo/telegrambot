@@ -99,7 +99,6 @@ Run the following command to verify the Go environment:
 bash
 Copy code
 
-----------------------------------------------------------------------------
 go env
 Ensure that the GOPATH and other environment variables are set correctly.
 
