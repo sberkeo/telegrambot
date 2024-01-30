@@ -8,7 +8,8 @@ You can find the sample completed bot in the links. Coded in Go lang, full insta
 
 ----------------------------------------------------------------------------
 
-#Telegram bot requirements
+#Telegram bot requirements-Telegram Account and Bot Token
+
 Create a Telegram account:
 If you don't have a Telegram account, you'll need to create one. You can do this by downloading the Telegram app on your mobile device or using the desktop version.
 
@@ -28,6 +29,8 @@ Use the Telegram Bot API documentation (https://core.telegram.org/bots/api) to u
 Write code to handle messages, commands, and other events your bot will respond to. For example, you might want to create a simple "Hello" command that the bot responds to.
 
 ----------------------------------------------------------------------------
+
+#Telegram bot requirements-GOLANG
 
 Setting up Go on your computer involves a few steps, including downloading and installing the Go compiler, setting up environment variables, and creating a workspace. Here's a step-by-step guide for setting up Go on a typical system:
 
@@ -64,43 +67,6 @@ export PATH=$PATH:/usr/local/go/bin
 Save the file and restart your terminal or run source <profile_file>.
 Step 3: Create a Workspace
 Go expects your projects to be organized in a specific directory structure called a workspace. By default, your Go workspace is created in your home directory.
-
-Create the workspace directory:
-Open your terminal and run the following commands:
-
-bash
-Copy code
-mkdir ~/go
-Set the GOPATH:
-Set the GOPATH environment variable to your workspace directory. Add the following line to your profile file:
-
-bash
-Copy code
-export GOPATH=~/go
-Create the necessary subdirectories:
-Inside your workspace directory (~/go), create three subdirectories: src, bin, and pkg.
-
-bash
-Copy code
-mkdir -p ~/go/src ~/go/bin ~/go/pkg
-Step 4: Verify the Installation
-Open a new terminal window.
-
-Run the following command to check the Go version:
-
-bash
-Copy code
-go version
-This should display the installed Go version.
-
-Run the following command to verify the Go environment:
-
-bash
-Copy code
-
-go env
-Ensure that the GOPATH and other environment variables are set correctly.
-
 Now, you have successfully set up Go on your computer. You can start creating and running Go programs in your workspace.
 
 ----------------------------------------------------------------------------
